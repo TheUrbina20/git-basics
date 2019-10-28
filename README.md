@@ -2,11 +2,12 @@
 
 ### Git config
 `$ git config --global user.name "User name"`
+
 `$ git config --global user.email "User email"`
 
 Set git identity
 ![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20config.png)
-![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20confit%20list].png)
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20config%20list].png)
 
 
 ### Git init
