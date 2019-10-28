@@ -1,5 +1,14 @@
 # Git basics for a PR
 
+### Git config
+`$ git config --global user.name "User name"`
+`$ git config --global user.email "User email"`
+
+Set git identity
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20config.png)
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20confit%20list].png)
+
+
 ### Git init
 `$ git init`
 
@@ -18,8 +27,7 @@ Clone the remote repo in our local
 ### Git statuses
 `$ git add [filename]`
 
-Change file from wiorking directory status to staing
-
+Change file from working directory status to stagin
 
 
 
@@ -46,8 +54,29 @@ Adds a new remote to the repository
 
 
 
-### Git push changes
 `$ git push [remote] [branch-name]`
 
 Push all your registered changes to the given remote in a given branch.
 ![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20push.png)
+
+
+`$ git fetch origin [remote-branch-name]`
+
+Get an specific branch from a given remote
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20download%20remote%20branch.png)
+
+
+### Mixing changes
+
+`$ git merge [branch-name]`
+Merge changes from the given branch to the actual branch
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20merge%20changes.png)
+
+
+
+### "Save" current work
+
+`$ git stash`
+
+Save the local modifications away en reset to match head commit.
+![alt text](https://github.com/TheUrbina20/git-basics/blob/master/images/git%20stash.png)
